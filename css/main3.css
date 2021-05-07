@@ -1,0 +1,312 @@
+
+.blue{
+	color: #16304D;
+}
+.byunavy{
+	background-color:#122d5a;
+}
+.whiteBYU
+{
+	background-color:white;
+	color:#16304D;
+}
+
+@media (min-width: 1050px) 
+{
+	.nav-item{
+		border-bottom: 3px solid white;
+		padding-right:6px;
+	}
+	.nonActiveNav:hover
+	{
+		border-bottom: 3px solid #122d5a;
+		
+	}
+	.activeNav
+	{
+		border-bottom: 3px solid #122d5a;
+		
+	}
+	
+}
+.navbar-toggler
+{
+	background-color:grey;
+}
+
+.navylight{
+	background-color:#023064;
+}
+.byunavytext{
+	color:#16304D;
+}
+.navylighttext{
+	color:#1B4574;
+}
+.lightblue{
+	color:#2C72C0;
+}
+.navbar
+{
+	box-shadow:0px 1px 5px #7a7a7a;
+}
+
+
+.nav-li{
+	height:35px; 
+	padding-top:3px; 
+	display:block; 
+	float:left; 
+	width: 16%; 
+	background-color:white;
+}
+.box {
+  	width: 26%;
+  	text-align: center;
+	height:450px;
+	margin:1%;
+	box-shadow:0px 0px 5px grey;
+	border-radius:2px;
+	max-width: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+.box:hover{
+	box-shadow:0px 0px 10px black;
+}
+
+.clearfix::after {
+  	clear: both;
+  	display: table;
+}
+.divIndex{
+	text-align: center;
+	width:100%;
+}
+.divcenter{
+	width: 70%;
+	margin:0 auto;
+}
+
+.spancol:hover{
+	transition:.4s;
+}
+.spancol{
+	color:black;
+}
+a:hover{
+	text-decoration:none;
+}
+
+@media (max-width: 850px) {
+	.divcenter{
+		width:85%;
+	}
+	.box{
+		margin-bottom:4.5%;
+		width:100%;
+		height:280px;
+		float: none; 
+		vertical-align: baseline;
+		box-shadow:0px 0px 5px grey;
+		border-radius:2px;
+		max-width: 400px;
+	}
+}
+
+.maincenter{
+	width:98%;
+	margin:0 auto;
+}
+
+.homeheader{
+	margin-top:40px;
+}
+.subheader{
+	margin-top:20px;
+}
+.bold{
+	font-weight: bold;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+	margin-bottom: 8px;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+
+}
+.faqDiv{
+	width:70%;
+	margin:auto;
+}
+@media (max-width: 600px) {
+	.faqDiv{
+		width:85%;
+	}
+}
+
+.accordion:active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+:target{
+	display:initial;
+	overflow:visible;
+}
+
+.overviewtitles{
+	font-weight:bold; 
+	padding-top:20px; 
+	font-size:20px;
+}
+.mainTitleHeader{
+	background: rgb(250, 250, 250); /* Backup */
+    background: rgba(250, 250, 250, 0.8);
+	max-width:800px;
+	width:70%;  
+	margin:0 auto; 
+
+}
+.mainTitleText{
+	font-size:400%;
+	font-weight:bold;
+	padding:15px;
+	padding-top:100px;
+}
+.subTitleText{
+	font-size:350%;
+	font-weight:bold;
+	padding:15px;
+	padding-top:100px;
+	text-align: center;
+}
+@media (max-width: 700px) {
+	.mainTitleText{
+		font-size:250%;
+	}
+
+}
+
+.shadowModern{
+	box-shadow: 25px solid #b3b3b3;
+}
+
+.footerStyle{
+	bottom:0;
+	height:10%;
+	margin:auto;
+}
+
+.footerDiv{
+	display:inline-block; 
+	width:30%; 
+	margin: 0 auto;
+}
+.footerDiv2{
+	width:30%; 
+	float:right; 
+	margin:0 auto;
+}
+.footerDiv3{
+	padding:5px;
+	height:100%; 
+	width:100%; 
+	text-align:center;
+}
+@media (max-width: 760px){
+	.footerDiv2
+	{
+		float:none;
+		width:100%;
+	}
+	.footerDiv
+	{
+		width:100%;
+	}
+}
+.footerLi{
+	color:#16304D;
+	text-decoration:underline;
+}
+.footerLi:active{
+	color:#16304D;
+	text-decoration:none;
+}
+.footerLi:hover{
+	color:darkblue;
+}
+
+
+table.overview{
+	width:70%;
+
+}
+tr{
+	border-bottom:2px solid #dbdce0;
+}
+td{
+	padding-right:10px;
+}
+.end{
+	float:right;
+}
+@media (max-width: 700px) {
+	table.overview{
+		width:100%;
+		font-size:90%;
+	}
+
+}
+.learnMore{
+	background-color: #122d5a;
+	border: none;
+  	color: white;
+	  padding: 12px 30px;
+	  margin-left:60px;
+  	text-decoration: none;
+  	display: inline-block;
+	font-size: 90%;
+	margin-top:10px;
+}
+.learnMore:hover{
+	background-color: #132953;
+	cursor: pointer;
+}
+.learnMore:active
+{
+	background-color: #0f203f;
+}
+
+
+@media (max-width: 700px) 
+{
+	.learnMore{
+		padding: 12px 28px;
+		font-size:100%;
+	}
+}
+p, h4{
+	color:#2e2e2e;
+}
+ul
+{
+	color:#2e2e2e;
+}
+.heading
+{
+	color:black;
+}
